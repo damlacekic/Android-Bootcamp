@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.UploadFragment"
+    android:orientation="vertical">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.RecyclerViewKotlin.AppBarOverlay"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            app:popupTheme="@style/Theme.RecyclerViewKotlin.PopupOverlay"
+            >
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    style="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+                    android:text="Harcama Ekle"
+                    android:textColor="#54000000"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content" />
+            </FrameLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutAciklama"
+        android:hint="Açıklama"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="25dp"
+
+        app:boxCornerRadiusBottomEnd="@dimen/radiousText"
+        app:boxCornerRadiusBottomStart="@dimen/radiousText"
+        app:boxCornerRadiusTopEnd="@dimen/radiousText"
+        app:boxCornerRadiusTopStart="@dimen/radiousText"
+        app:boxStrokeColor="@color/baseColor"
+        app:hintTextColor="@color/baseColor">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TextInputeditTextAciklama"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutHarcama"
+        android:hint="Harcama"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+
+        app:boxCornerRadiusBottomEnd="@dimen/radiousText"
+        app:boxCornerRadiusBottomStart="@dimen/radiousText"
+        app:boxCornerRadiusTopEnd="@dimen/radiousText"
+        app:boxCornerRadiusTopStart="@dimen/radiousText"
+        app:boxStrokeColor="@color/baseColor"
+        app:hintTextColor="@color/baseColor">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/TextInputeditTextHarcama"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroupHarcama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="40dp"
+        >
+        <RadioButton
+            android:id="@+id/radioButtonFatura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:text="@string/fatura"
+            android:buttonTint="@color/baseColor"
+            />
+        <RadioButton
+            android:id="@+id/radioButtonKira"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:text="@string/kira"
+            android:buttonTint="@color/baseColor"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonDiger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:text="@string/diger"
+            android:buttonTint="@color/baseColor"/>
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroupMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        >
+        <RadioButton
+            android:id="@+id/radioButtonTl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:text="@string/TurkLiras"
+            android:buttonTint="@color/baseColor"
+            />
+        <RadioButton
+            android:id="@+id/radioButtonDolar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:text="@string/Dolar"
+            android:buttonTint="@color/baseColor"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonSterlin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:text="@string/Sterlin"
+            android:buttonTint="@color/baseColor"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonEuro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:text="@string/Euro"
+            android:buttonTint="@color/baseColor"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonUploadEkle"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="15dp"
+        android:text="Ekle"
+        app:cornerRadius="15dp"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/baseColor"
+        ></Button>
+
+
+</LinearLayout>

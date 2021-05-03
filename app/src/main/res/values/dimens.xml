@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bigSizeSplashText">30sp</dimen>
+    <dimen name="bigSizeOnBoardingText">22sp</dimen>
+    <dimen name="marginleft">100dp</dimen>
+    <dimen name="mediumSizeOnBoardingText">16sp</dimen>
+    <dimen name="onboardinganimationdimen">300dp</dimen>
+    <dimen name="radiousText">25dp</dimen>
+    <dimen name="buttonStrokeWidth">1dp</dimen>
+    <dimen name="detailfragmentmarginTop">20dp</dimen>
+
+</resources>

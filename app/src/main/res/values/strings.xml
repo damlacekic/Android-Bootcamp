@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Harcama Takip Uygulaması</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="onboardingScreenText1">Karşınızda Harcama Takip Uygulaması</string>
+    <string name="onboardingScreenText2">Artık Karışıklığa Son</string>
+    <string name="onboardingScreen2Text1">Kolayca Katagorilendir</string>
+    <string name="onboardingScreen2Text2">Harcamaları Katagorilendirerek Daha Kolay Takip Edin</string>
+    <string name="onboardingScreen3Text1">Farklı Para Birimleriyle Takip Et</string>
+    <string name="onboardingScreen3Text2">Harcamalarınızı TL Dolar Euro Sterlin Para Birimleriyle Sürekli Güncellenen Kurla Takip Edin</string>
+
+
+    <string name="fatura">Fatura</string>
+    <string name="kira">Kira</string>
+    <string name="diger">Diğer</string>
+    <string name="TurkLiras">TL</string>
+    <string name="Dolar">Dolar</string>
+    <string name="Sterlin">Sterlin</string>
+    <string name="Euro">Euro</string>
+
+    <string name="radioButtonKadin">Kadın</string>
+    <string name="radioButtonErkek">Erkek</string>
+    <string name="radioButtonBelirtmekIstemiyorum">Belirtmek İstemiyorum</string>
+</resources>

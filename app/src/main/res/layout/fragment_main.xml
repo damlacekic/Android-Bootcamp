@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.MainFragment"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/card"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textMerhaba"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    android:text="Merhaba"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+
+                    ></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textHarcama"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    android:text="Harcamanız"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/textHarcamaTutar"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+
+                    android:text="25000$"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+
+                    >
+
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="190dp"
+
+        >
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/ChipGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:singleSelection="true"
+            >
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipLira"
+                style="@style/CustomChipStyle"
+                android:layout_width="85dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/transparent"
+                android:text="TL"
+                android:textSize="18sp"
+                app:chipStrokeColor="@drawable/chipstrokecolor"
+                app:chipStrokeWidth="1dp"
+                android:layout_marginLeft="22dp"
+
+                app:chipSurfaceColor="#540E0D0D"
+
+
+                >
+
+            </com.google.android.material.chip.Chip>
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipDolar"
+                android:textAlignment="center"
+                style="@style/CustomChipStyle"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:text="Dolar"
+                android:backgroundTint="@android:color/transparent"
+                android:textSize="18sp"
+                app:chipStrokeWidth="1dp"
+                app:chipSurfaceColor="#540E0D0D"
+                app:chipStrokeColor="@drawable/chipstrokecolor"
+
+
+                ></com.google.android.material.chip.Chip>
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipSterlin"
+                style="@style/CustomChipStyle"
+                android:layout_width="85dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:text="Sterlin"
+
+                android:backgroundTint="@android:color/transparent"
+                app:chipStrokeColor="@drawable/chipstrokecolor"
+
+                android:textSize="18sp"
+                app:chipStrokeWidth="1dp"
+                app:chipSurfaceColor="#540E0D0D"
+                app:cornerRadius="15dp"
+
+                ></com.google.android.material.chip.Chip>
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chipEuro"
+                style="@style/CustomChipStyle"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:text="Euro"
+                android:textAlignment="center"
+                android:backgroundTint="@android:color/transparent"
+                app:chipStrokeColor="@drawable/chipstrokecolor"
+
+                android:textSize="18sp"
+                app:chipStrokeWidth="1dp"
+                app:chipSurfaceColor="#540E0D0D"
+                app:cornerRadius="15dp"
+
+                ></com.google.android.material.chip.Chip>
+
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <!--<Button
+            android:id="@+id/buttonLira"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:text="@string/TurkLiras"
+            android:textColor="#544A4545"
+            app:strokeColor = "#544A4545"
+            app:cornerRadius = "15dp"
+            android:backgroundTint="@android:color/transparent"
+            app:strokeWidth = "1dp"
+            android:textSize="15sp"
+            >
+        </Button>
+        <Button
+            android:id="@+id/buttonDolar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:text="@string/Dolar"
+            android:textColor="#544A4545"
+            app:strokeColor = "#544A4545"
+            app:cornerRadius = "15dp"
+            android:backgroundTint="@android:color/transparent"
+            app:strokeWidth = "1dp"
+            android:textSize="15sp"
+            >
+        </Button>
+        <Button
+            android:id="@+id/buttonSterlin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:text="@string/Sterlin"
+            android:textColor="#544A4545"
+            app:strokeColor = "#544A4545"
+            app:cornerRadius = "15dp"
+            android:backgroundTint="@android:color/transparent"
+            app:strokeWidth = "1dp"
+            android:textSize="15sp"
+            >
+        </Button>
+        <Button
+            android:id="@+id/buttonEuro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:text="@string/Euro"
+            android:textColor="#544A4545"
+            app:strokeColor = "#544A4545"
+            app:cornerRadius = "15dp"
+            android:backgroundTint="@android:color/transparent"
+            app:strokeWidth = "1dp"
+            android:textSize="15sp"
+            >
+        </Button>-->
+    </LinearLayout>
+    <Button
+        android:id="@+id/buttonEkle"
+        android:drawableLeft="@drawable/ic_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="15dp"
+        android:text="Ekle"
+        app:cornerRadius="15dp"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/baseColor"
+        ></Button>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="250dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    >
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="25dp"
+
+        />
+
+
+</ScrollView>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
