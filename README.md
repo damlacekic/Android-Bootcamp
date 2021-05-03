@@ -24,7 +24,7 @@ Uygula ilk açıldığında bizi bir splash screen karşılıyor
 
 ![splass](https://user-images.githubusercontent.com/72108390/116887039-7e2aab80-ac32-11eb-87b1-2d59c85adaab.PNG)
 
-Eğer uygulama ilk defa açıldı ise karşımıza üç adet Onboarding Screen çıkıyor
+Eğer uygulama ilk defa açıldı ise kullanıcıya uygulamayı tanıtmak amacıyla karşımıza üç adet Onboarding Screen çıkıyor
 
 ![onBoarding1](https://user-images.githubusercontent.com/72108390/116887646-348e9080-ac33-11eb-8beb-41fa1cf9d5fe.PNG)
 
