@@ -2,7 +2,9 @@
 # Android Bootcamp Bitirme Projesi
 Bu proje Google Developer Grubunun hazırlamış olduğu Android Bootcamp Turkey etkinliğinin Bitirme Projesidir.
 
-Projenin amacı kullanıcının yapmış olduğu harcamaların kontrolünün sağlanmasıdı. Ayrıca istenilen para dönüşümleri sağlanır ve  harcama detaylarına ulaşılabilir.
+Projenin amacı kullanıcının yapmış olduğu harcamaların kontrolünün sağlanmasıdır. 
+
+Ayrıca istenilen para dönüşümleri sağlanır ve  harcama detaylarına ulaşılabilir.
 
 Uygulama Offline Olarakta Çalışmaktadır!!
 
