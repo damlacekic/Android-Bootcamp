@@ -8,7 +8,6 @@ Ayrıca istenilen para dönüşümleri sağlanır ve  harcama detaylarına ulaş
 
 Uygulama Offline Olarakta Çalışmaktadır!!
 
-Kullanılan Api: https://v6.exchangerate-api.com/v6/55484c3d8c8554e044e102fa/latest
   
 Kullanılar Teknolojiler:
 
