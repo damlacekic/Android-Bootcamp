@@ -32,11 +32,7 @@ class PaymentViewModel(application : Application):AndroidViewModel(application) 
         val paymentDAO = PaymentDataBase.getDataBase(application).paymentDao()
         repositoryData = PaymentRepository(paymentDAO)
         readAllData = repositoryData.readAllData
-
-
     }
-
-
     fun getConverted(base:String) {
         viewModelScope.launch {
             repository.getConverted(base).enqueue(object : Callback<Currency> {

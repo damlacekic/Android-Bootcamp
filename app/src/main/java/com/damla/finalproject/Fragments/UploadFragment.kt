@@ -38,7 +38,7 @@ class UploadFragment : Fragment() {
         val toolbar: Toolbar = binding.toolBar
         val buttonUploadEkle: Button = binding.buttonUploadEkle
 
-     //   val preferences = SharedPreferencesManager.getSharedPreferences(requireContext())
+
         preferences = requireActivity().getSharedPreferences("com.damla.finalproject", Context.MODE_PRIVATE)
         binding.radioGroupMoney.setOnCheckedChangeListener { group, checkedId ->
             var radioButton:View = binding.radioGroupMoney.findViewById(checkedId)
@@ -89,7 +89,6 @@ class UploadFragment : Fragment() {
             if(inputCheck(section, amount!!)){
                 val payment = Payment(0,vektor,section,amount.toString().toDouble(),amountType)
                 mPaymentViewModel.addPayment(payment)
-                //val id : Int = mPaymentViewModel.addPayment(payment)
                 Toast.makeText(requireContext(),"Başarıyla Ekleme Yapıldı",Toast.LENGTH_LONG).show()
                 findNavController().navigate(R.id.action_uploadFragment_to_mainFragment)
             }else{

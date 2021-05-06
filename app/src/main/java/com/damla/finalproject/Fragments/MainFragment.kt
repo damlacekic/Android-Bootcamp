@@ -66,9 +66,6 @@ class MainFragment : Fragment() {
 
         mPaymentViewModel.getConverted("TRY")
         mPaymentViewModel.myResponse.observe(viewLifecycleOwner, Observer { currency ->
-            val USD = currency.conversion_rates.USD
-            val EUR = currency.conversion_rates.EUR
-            val GBP = currency.conversion_rates.GBP
             if(::paymentList.isInitialized) {
                 if (!paymentList.isEmpty()) {
                     for (payment in paymentList) {
@@ -80,17 +77,17 @@ class MainFragment : Fragment() {
                                 if (!amountType.equals("TL")) {
                                     val paymentID = payment.id
                                     if(payment.amountType.equals("$")){
-                                        val toTL = payment.amount/USD
+                                        val toTL = payment.amount/currency.conversion_rates.USD
                                         payment.amount = toTL
                                         payment.amountType = "TL"
                                     }
                                     if(payment.amountType.equals("£")){
-                                        val toTL = payment.amount/GBP
+                                        val toTL = payment.amount/currency.conversion_rates.GBP
                                         payment.amount = toTL
                                         payment.amountType = "TL"
                                     }
                                     if(payment.amountType.equals("€")){
-                                        val toTL = payment.amount/EUR
+                                        val toTL = payment.amount/currency.conversion_rates.EUR
                                         payment.amount = toTL
                                         payment.amountType = "TL"
                                     }
@@ -106,22 +103,22 @@ class MainFragment : Fragment() {
                                     val paymentID = payment.id
                                     if (!amountType.equals("TL")) {
                                         if(payment.amountType.equals("$")){
-                                            val toTL = payment.amount/USD
+                                            val toTL = payment.amount/currency.conversion_rates.USD
                                             payment.amount = toTL
                                             payment.amountType = "TL"
                                         }
                                         if(payment.amountType.equals("£")){
-                                            val toTL = payment.amount/GBP
+                                            val toTL = payment.amount/currency.conversion_rates.GBP
                                             payment.amount = toTL
                                             payment.amountType = "TL"
                                         }
                                         if(payment.amountType.equals("€")){
-                                            val toTL = payment.amount/EUR
+                                            val toTL = payment.amount/currency.conversion_rates.EUR
                                             payment.amount = toTL
                                             payment.amountType = "TL"
                                         }
                                     }
-                                    val tlToUsd = payment.amount * USD
+                                    val tlToUsd = payment.amount * currency.conversion_rates.USD
                                     mPaymentViewModel.changingAmount(tlToUsd, paymentID)
                                     payment.amountType = "$"
                                     mPaymentViewModel.changingAmountType(payment.amountType, paymentID)
@@ -135,22 +132,22 @@ class MainFragment : Fragment() {
                                     val paymentID = payment.id
                                     if (!amountType.equals("TL")) {
                                         if(payment.amountType.equals("$")){
-                                            val toTL = payment.amount/USD
+                                            val toTL = payment.amount/currency.conversion_rates.USD
                                             payment.amount = toTL
                                             payment.amountType = "TL"
                                         }
                                         if(payment.amountType.equals("£")){
-                                            val toTL = payment.amount/GBP
+                                            val toTL = payment.amount/currency.conversion_rates.GBP
                                             payment.amount = toTL
                                             payment.amountType = "TL"
                                         }
                                         if(payment.amountType.equals("€")){
-                                            val toTL = payment.amount/EUR
+                                            val toTL = payment.amount/currency.conversion_rates.EUR
                                             payment.amount = toTL
                                             payment.amountType = "TL"
                                         }
                                     }
-                                    val tlToGbp = payment.amount * GBP
+                                    val tlToGbp = payment.amount * currency.conversion_rates.GBP
                                     mPaymentViewModel.changingAmount(tlToGbp, paymentID)
                                     payment.amountType = "£"
                                     mPaymentViewModel.changingAmountType(payment.amountType, paymentID)
@@ -164,22 +161,22 @@ class MainFragment : Fragment() {
                                     val paymentID = payment.id
                                     if (!amountType.equals("TL")) {
                                         if(payment.amountType.equals("$")){
-                                            val toTL = payment.amount/USD
+                                            val toTL = payment.amount/currency.conversion_rates.USD
                                             payment.amount = toTL
                                             payment.amountType = "TL"
                                         }
                                         if(payment.amountType.equals("£")){
-                                            val toTL = payment.amount/GBP
+                                            val toTL = payment.amount/currency.conversion_rates.GBP
                                             payment.amount = toTL
                                             payment.amountType = "TL"
                                         }
                                         if(payment.amountType.equals("€")){
-                                            val toTL = payment.amount/EUR
+                                            val toTL = payment.amount/currency.conversion_rates.EUR
                                             payment.amount = toTL
                                             payment.amountType = "TL"
                                         }
                                     }
-                                    val tlToEur = payment.amount * EUR
+                                    val tlToEur = payment.amount * currency.conversion_rates.EUR
                                     mPaymentViewModel.changingAmount(tlToEur, paymentID)
                                     payment.amountType = "€"
                                     mPaymentViewModel.changingAmountType(payment.amountType, paymentID)
