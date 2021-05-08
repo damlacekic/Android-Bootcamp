@@ -73,7 +73,6 @@ class MainFragment : Fragment() {
                         val amountType = payment.amountType
                         when (radioButtonPara) {
                             0 -> {
-
                                 if (!amountType.equals("TL")) {
                                     val paymentID = payment.id
                                     if(payment.amountType.equals("$")){
@@ -206,7 +205,7 @@ class MainFragment : Fragment() {
                 2 -> {
 
                     preferences?.edit()?.putInt("radioButtonPara",2)?.apply()
-                   mPaymentViewModel.getConverted("TRY")
+                    mPaymentViewModel.getConverted("TRY")
                 }
                 3 -> {
 

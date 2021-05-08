@@ -7,7 +7,7 @@ import retrofit2.http.Path
 
 interface SimpleApi {
 
-    @GET("v6/55484c3d8c8554e044e102fa/latest/{base_code}")
+    @GET("v6/tq7k63b4j5zv7d75btfyc5qt/latest/{base_code}")
     fun getCorverted(@Path("base_code") base_code :String):Call<Currency>
 
 }
