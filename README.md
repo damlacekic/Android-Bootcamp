@@ -23,32 +23,31 @@ Kullanılar Teknolojiler:
 
 Uygula ilk açıldığında bizi bir splash screen karşılıyor
 
-![splass](https://user-images.githubusercontent.com/72108390/116887039-7e2aab80-ac32-11eb-87b1-2d59c85adaab.PNG)
+![splash](https://user-images.githubusercontent.com/72108390/117572340-25985a00-b0db-11eb-9100-f9cc3e011532.png)
 
 Eğer uygulama ilk defa açıldı ise kullanıcıya uygulamayı tanıtmak amacıyla karşımıza üç adet Onboarding Screen çıkıyor
 
-![onBoarding1](https://user-images.githubusercontent.com/72108390/116887646-348e9080-ac33-11eb-8beb-41fa1cf9d5fe.PNG)
+![onboarding1](https://user-images.githubusercontent.com/72108390/117572399-63957e00-b0db-11eb-80c9-55c9117eaf96.png)
 
-![onScreen2](https://user-images.githubusercontent.com/72108390/116887695-4112e900-ac33-11eb-9a92-3db5cb00fa48.PNG)
+![onbo2](https://user-images.githubusercontent.com/72108390/117572406-6ee8a980-b0db-11eb-90e1-c20769cc8d12.png)
 
-![onScreen3](https://user-images.githubusercontent.com/72108390/116887774-57b94000-ac33-11eb-9e0b-ca605a82ffa2.PNG)
+![onbording3](https://user-images.githubusercontent.com/72108390/117572414-77d97b00-b0db-11eb-9373-35ab7f596b81.png)
 
 Uygulama Kullanıcı Adının Kaydedilmesini ve değiştirilmesini sağlamakta
 
-![Kullanıcı Adı değiştirme](https://user-images.githubusercontent.com/72108390/116887886-7c151c80-ac33-11eb-8caf-911808bccf23.PNG)
+![addeğiştir](https://user-images.githubusercontent.com/72108390/117572426-7f991f80-b0db-11eb-9e17-a87c5982f6c9.png)
 
 Uygulamaya Yeni Harcama Eklemesi yapılabiliyor
 
-![Harcama Ekle](https://user-images.githubusercontent.com/72108390/116888048-b088d880-ac33-11eb-83d4-275c0660b23c.PNG)
+![ekle](https://user-images.githubusercontent.com/72108390/117572454-ace5cd80-b0db-11eb-9a4a-e681cd2aa77e.png)
 
 Eklenilen Harcamalar Ana Ekranda gösteriliyor ve bu ekranda para birimi değişimide sağlanıyor
 
-![Harcama Ekranı](https://user-images.githubusercontent.com/72108390/116888196-d615e200-ac33-11eb-9aae-fa6a6a63d3e1.PNG)
+![main](https://user-images.githubusercontent.com/72108390/117572463-b66f3580-b0db-11eb-9636-cb0c9fab06bd.png)
 
 Harcamaların üzerine tıklandığında harcama ile ilgili bilgiler gösteriliyor ve harcamayı silme imkanı saplanıyor.
 
-![Detay](https://user-images.githubusercontent.com/72108390/116888307-f8a7fb00-ac33-11eb-9f24-ec319c0de738.PNG)
-
+![detay](https://user-images.githubusercontent.com/72108390/117572486-c7b84200-b0db-11eb-9c24-df077d723f01.png)
 
 
 
