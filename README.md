@@ -21,6 +21,9 @@ Kullanılar Teknolojiler:
 +  View Binding
 +  RecyclerView
 
+![Component 1 – 1](https://user-images.githubusercontent.com/72108390/117575807-153cab00-b0ec-11eb-8281-a8dc96d7f2fe.png)
+
+
 Uygula ilk açıldığında bizi bir splash screen karşılıyor
 
 ![splasswithphone](https://user-images.githubusercontent.com/72108390/117573449-8d04d880-b0e0-11eb-9a86-53b326e57e16.png)
