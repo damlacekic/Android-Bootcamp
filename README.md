@@ -23,20 +23,31 @@ Kullanılar Teknolojiler:
 
 Uygula ilk açıldığında bizi bir splash screen karşılıyor
 
-![splash](https://user-images.githubusercontent.com/72108390/117572340-25985a00-b0db-11eb-9100-f9cc3e011532.png)
-Eğer uygulama ilk defa açıldı ise kullanıcıya uygulamayı tanıtmak amacıyla karşımıza üç adet Onboarding Screen çıkıyor
-![onboarding1](https://user-images.githubusercontent.com/72108390/117572399-63957e00-b0db-11eb-80c9-55c9117eaf96.png)
-![onbo2](https://user-images.githubusercontent.com/72108390/117572406-6ee8a980-b0db-11eb-90e1-c20769cc8d12.png)
-![onbording3](https://user-images.githubusercontent.com/72108390/117572414-77d97b00-b0db-11eb-9373-35ab7f596b81.png)
-Uygulama Kullanıcı Adının Kaydedilmesini ve değiştirilmesini sağlamakta
-![addeğiştir](https://user-images.githubusercontent.com/72108390/117572426-7f991f80-b0db-11eb-9e17-a87c5982f6c9.png)
-Uygulamaya Yeni Harcama Eklemesi yapılabiliyor
-![ekle](https://user-images.githubusercontent.com/72108390/117572454-ace5cd80-b0db-11eb-9a4a-e681cd2aa77e.png)
-Eklenilen Harcamalar Ana Ekranda gösteriliyor ve bu ekranda para birimi değişimide sağlanıyor
-![main](https://user-images.githubusercontent.com/72108390/117572463-b66f3580-b0db-11eb-9636-cb0c9fab06bd.png)
-Harcamaların üzerine tıklandığında harcama ile ilgili bilgiler gösteriliyor ve harcamayı silme imkanı saplanıyor.
-![detay](https://user-images.githubusercontent.com/72108390/117572486-c7b84200-b0db-11eb-9c24-df077d723f01.png)
+![splasswithphone](https://user-images.githubusercontent.com/72108390/117573449-8d04d880-b0e0-11eb-9a86-53b326e57e16.png)
 
+Eğer uygulama ilk defa açıldı ise kullanıcıya uygulamayı tanıtmak amacıyla karşımıza üç adet Onboarding Screen çıkıyor
+
+![onboarding1withphone](https://user-images.githubusercontent.com/72108390/117573501-ec62e880-b0e0-11eb-8c51-164920e13ce4.png)
+
+![onboarding2withphone](https://user-images.githubusercontent.com/72108390/117573528-1a482d00-b0e1-11eb-80f5-8152659a8dc3.png)
+
+![onbording3withphone](https://user-images.githubusercontent.com/72108390/117573548-35b33800-b0e1-11eb-9d30-9bad2c84b6c5.png)
+
+Uygulama Kullanıcı Adının Kaydedilmesini ve değiştirilmesini sağlamakta
+
+![addeğiştirwithphone](https://user-images.githubusercontent.com/72108390/117573580-5d0a0500-b0e1-11eb-975d-80cf2e989b00.png)
+
+Uygulamaya Yeni Harcama Eklemesi yapılabiliyor
+
+![eklewithphone](https://user-images.githubusercontent.com/72108390/117573595-7a3ed380-b0e1-11eb-8fbc-c275578db040.png)
+
+Eklenilen Harcamalar Ana Ekranda gösteriliyor ve bu ekranda para birimi değişimide sağlanıyor
+
+![mainwithphone](https://user-images.githubusercontent.com/72108390/117573607-8e82d080-b0e1-11eb-9749-3dcbce4d61e2.png)
+
+Harcamaların üzerine tıklandığında harcama ile ilgili bilgiler gösteriliyor ve harcamayı silme imkanı saplanıyor.
+
+![detaywithphone](https://user-images.githubusercontent.com/72108390/117573625-a5292780-b0e1-11eb-9953-9ba03fb4e602.png)
 
 
   
